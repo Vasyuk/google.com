@@ -3,7 +3,7 @@
   <head>
     <title>Google</title>
     <link href="style.css" rel="stylesheet">
-    <link rel="SHORTCUT ICON" href="Images/google-32.png" /> 
+    <link rel="SHORTCUT ICON" href="Images/google-32.png" />
   </head>
   <body>
     <div id = "top">
@@ -16,6 +16,9 @@
       </ul>
     </div>
     <div id = "middle">
+      <div button>
+          <button id = "buttonShow"  calss = "button" type = "button">AFFICHER LES ÉLÉMENTS CENTRAUX</button>
+      </div>
       <div>
         <a href="#"><image id="middleImage" src="Images/Google_2015_logo.svg.png"></a>
       </div>
@@ -23,7 +26,7 @@
          <input id= "barDeRecherche" type="text" name="firstname" placeholder="Rechercher sur Google ou saisr le URL "><br>
       </div>
       <div>
-        <button class = "button" type = "button">Recherche Google</button>
+        <button class = "button" type = "button" href="#" onclick = "pushMe()">Recherche Google</button>
         <button class = "button" type = "button">J'ai de la chance</button>
       </div>
     </div>
@@ -36,6 +39,7 @@
       <a class ="textBottomRight">Conditions</a>
       <a class ="textBottomRight">Paramètres</a>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js.js"></script>
   </body>
 </html>

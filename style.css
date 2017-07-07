@@ -106,3 +106,11 @@ a:visited{
 body, td, a, p, .h {
     font-family: arial,sans-serif;
 }
+
+#table {
+  margin: auto;
+  text-align: center;
+  border: solid;
+  width: 300px;
+  height: 300px;
+}
